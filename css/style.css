@@ -3,10 +3,13 @@
 body {
     font-family: Arial, Verdana, serif;
     background-color: #000000;
-    color: #ffffff;
+    color: #ffffff !important;
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
+}
+body p {
+    color: #ffffff !important;
 }
 h1 {
     font-size: 42px;
@@ -47,6 +50,7 @@ div.introduction {
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
+    color: #ffffff !important;
 }
 
 div.red {
@@ -70,8 +74,12 @@ div.blue {
     border-left: 0px;
 }
 
-div.blue h2, p {
-    color: #C4C4C4;
+div.blue h2 {
+    color: #C4C4C4 !important;
+}
+
+div.blue p {
+    color: #C4C4C4 !important;
 }
 
 div.yellow {
@@ -84,7 +92,7 @@ div.yellow {
     border-right: 0px;
 }
 div.yellow p {
-    color: #707070;
+    color: #707070 !important;
 }
 
 div.green {
@@ -95,6 +103,10 @@ div.green {
     border-top: 2px solid #ffffff;
     border-bottom: 0px;
     border-left: 0px;
+}
+
+div.green p {
+    color: #ffffff !important;
 }
 
 footer {
